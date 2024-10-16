@@ -793,6 +793,7 @@ margin-bottom: 2.2rem;
 
 .how-it-work .content-wrapper .feature-img img{
   max-width: 53.5rem;
+  width: 100%;
 }
 .how-it-work .content-wrapper .feature-text .btn-secondary{
   margin-top: 3.6rem;
