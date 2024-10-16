@@ -23,10 +23,11 @@
     h1 {
         line-height: 1.4em;
     }
-     h2 {
+
+    h2 {
         line-height: 1.4em;
-    } 
-    
+    }
+
     h3 {
         line-height: 1.4em;
     }
@@ -81,26 +82,92 @@
         margin-top: 5rem;
         justify-content: center;
     }
-    
+
+    .devider {
+        padding: 11rem 0rem;
+    }
 
     /* Hero */
     .hero-section {
-        --p:10rem
+        padding: 10rem 0rem;
+    }
+
+    .hero-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hero-img{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .feature-img {
+        text-align: center;
     }
 
 
+    .how-it-work .even-columns{
+        row-gap: 5rem;
+    }
 
+    .how-it-work .content-wrapper .even-columns:nth-of-type(2) .text{
+        order: 1;
+        
+    }
+    .how-it-work .text{
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .how-it-work .feature-text  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
 
     /* Counter Section */
 
-    .counter-section .card-wrapper{
+    .counter-section .card-wrapper {
         flex-wrap: wrap;
         row-gap: 5rem;
     }
+
     .counter-section .card-wrapper .card {
         width: 50%;
+        border: none;
+        border-left: 0px solid transparent;
 
     }
+
+    .counter-section .card-wrapper .card:not(:first-child) {
+        border-left: 0px solid rgb(181 181 181);
+    }
+
+
+    .counter-section .card-wrapper .card h2 {
+        font-size: 5.1rem;
+        margin-bottom: 2.2rem;
+    }
+
+
+
+
+
+    .artist-cards .card:nth-child(odd) {
+        margin-top: 0rem;
+    }
+
+
+
+
+
+
 
     @media (max-width: 576px) {
 
@@ -108,7 +175,36 @@
             width: 100%;
             border: none;
         }
-    
+
+        :root {
+            --fs-12: 1.2rem;
+            --fs-15: 1.5rem;
+            --fs-16: 1.6rem;
+            --fs-17: 1.7rem;
+            --fs-18: 1.8rem;
+            --fs-19: 1.9rem;
+            --fs-20: 2rem;
+            --fs-22: 2.2rem;
+            --fs-28: 2.8rem;
+            --fs-32: 3.2rem;
+            --fs-56: 3rem;
+            --fs-64: 3.4rem;
+            --fs-72: 4.2rem;
+            --fs-96: 9.6rem;
+        }
+
+
+        .why-choose-us .card-wrapper .card:nth-child(even) {
+            margin-top: 0rem;
+        }
+
+      
+        .artist-cards {
+            row-gap: 5rem;
+
+        }
+
+
     }
 
 
