@@ -1013,7 +1013,7 @@ margin-bottom: 2.2rem;
 
 }
 
-.faq-section .faq-content .allfaq .faq:last-child > .faq-questions{
+.faq-section .faq-content .allfaq .faq:last-child{
   padding-bottom: 0rem;
 
 }
@@ -1066,4 +1066,82 @@ margin-bottom: 2.2rem;
 .get-started-desc{
   margin-top: 2.4rem;
   margin-bottom: 4.5rem;
+}
+
+
+
+/* Footer css start */
+footer{
+  padding-top: 8.1rem;
+  padding-bottom: 3.5rem;
+}
+
+footer .footer-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+}
+
+.footer-menu{
+  display: flex;
+  gap: 3.4rem;
+  justify-content: space-between;
+  max-width: 44.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+.footer-details{
+  max-width: 37rem;
+}
+
+.footer-social{
+  justify-content: start;
+  margin-top: 2rem;
+
+}
+
+.footer-navigation{
+  max-width: 20.5rem;
+  width: 100%;
+  padding: 0rem 1.5rem ;
+}
+
+
+.footer-navigation ul{
+  margin-top: 1.939rem;
+}
+
+.footer-navigation ul li:not(:first-child){
+  margin-top: 1.418rem;
+  
+}
+
+.footer-navigation ul li a{
+  color: #7B7583 ;
+  size: 1.7rem;
+  line-height: 2.52rem;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.4rem;
+}
+
+.bottom-right-footer{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bottom-right-footer a{
+color: #7B7583;
+font-size: var(--fs-15);
+line-height: 1.6rem;
 }

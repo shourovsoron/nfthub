@@ -211,6 +211,19 @@
 
         }
 
+        .footer-bottom{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3.4rem;
+          }
+
+          .footer-bottom p{
+            text-align: center;
+          }
+
 
     }
 
