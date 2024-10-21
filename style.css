@@ -291,6 +291,7 @@ h6 {
 }
 .fs-96 {
   font-size: var(--fs-96);
+  line-height: 1.2em;
 }
 
 .fs-body {
@@ -969,4 +970,100 @@ margin-bottom: 2.2rem;
 
 .card-social a{
   color: var(--clr-primary-400);
+}
+
+.card-social:last-child{
+  
+}
+
+
+
+/* FAQ Section */
+.faq-section {
+}
+
+.faq-section .faq-content {
+  margin-top: 7.5rem; max-width: 68.7rem; padding: 4.9rem; border: .1rem solid #83838340; margin-inline: auto; border-radius: 2.4rem; -webkit-border-radius: 2.4rem; -moz-border-radius: 2.4rem; -ms-border-radius: 2.4rem; -o-border-radius: 2.4rem;
+}
+
+.faq-section .faq-content{
+  width: 100%;
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
+
+
+.faq-section .faq-content .faq{
+  padding: 1rem 0px;
+}
+.faq-section .faq-content .faq:not(:first-child) {
+  border-top: 1px solid #D0D0D0;
+}
+
+.faq-section .faq-content .faq:first-child{
+  padding-top: 0rem;
+}
+.faq-section .faq-content .allfaq .faq:first-child > .faq-questions{
+  padding-top: 0rem;
+
+}
+
+.faq-section .faq-content .allfaq .faq:last-child > .faq-questions{
+  padding-bottom: 0rem;
+
+}
+
+.faq-section .faq-content  .faq .faq-questions {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.1rem;
+  line-height: 2.64rem;
+  color: var(--clr-primary-400);
+  font-weight: 700;
+  cursor: pointer;
+}
+.faq-section .faq-content .faq .faq-answer {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  max-height: 0;
+  overflow: hidden;
+  color: #7B7583;
+  transition: all 0.3s;
+}
+.faq-section .faq-content .active-faq .faq-answer {
+  display: block;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  max-height: 30rem;
+  transition: all 1s;
+}
+
+
+.devider-under-faq{
+  padding-bottom: 4.9rem;
+
+}
+
+/* Get Started Section */
+
+.get-started{
+  padding-top: 14.8rem;
+  padding-bottom: 12.8rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(./images/div.cta-bg.png);
+}
+
+.get-started-desc{
+  margin-top: 2.4rem;
+  margin-bottom: 4.5rem;
 }

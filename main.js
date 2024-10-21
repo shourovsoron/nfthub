@@ -28,6 +28,9 @@ mobileMenuBtn.addEventListener('click', ()=>{
 
 
 
+
+
+
 const swiper = new Swiper('.swiper1', {
     // Optional parameters
     direction: 'horizontal',

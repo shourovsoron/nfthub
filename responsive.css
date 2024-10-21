@@ -15,7 +15,7 @@
         --fs-56: 3.6rem;
         --fs-64: 4.4rem;
         --fs-72: 5.2rem;
-        --fs-96: 9.6rem;
+        --fs-96: 5.6rem;
 
     }
 
@@ -159,10 +159,17 @@
 
 
 
+
     .artist-cards .card:nth-child(odd) {
         margin-top: 0rem;
     }
 
+
+
+    .devider-under-faq{
+        padding-bottom: 4.9rem;
+      
+      }
 
 
 
@@ -190,7 +197,7 @@
             --fs-56: 3rem;
             --fs-64: 3.4rem;
             --fs-72: 4.2rem;
-            --fs-96: 9.6rem;
+            --fs-96: 5.6rem;
         }
 
 
